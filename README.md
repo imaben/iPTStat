@@ -2,6 +2,9 @@
 
 **Mac OS在状态栏中实时监控BT/PT下载类软件的速度**
 
+<img width="211" alt="image" src="https://user-images.githubusercontent.com/3390195/226912326-fb03c59b-8d45-45f1-8b39-c734a8027b13.png">
+
+
 ## 构建
 
 ```
