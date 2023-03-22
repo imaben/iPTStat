@@ -39,6 +39,6 @@ $HOME/.config/iPTStat/config.json
 
 ## 客户端支持
 
-[x] qbittorrent
-[] transmission
-[] utorrent
+- [x] qbittorrent
+- [ ] transmission
+- [ ] utorrent
