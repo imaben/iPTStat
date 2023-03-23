@@ -35,10 +35,12 @@ class Client():
 class ClientQBittorrent(Client):
     client : qbittorrentapi.Client
     max_sample = 5
-    speeds_up = []
-    speeds_dl = []
+    speeds_up : list
+    speeds_dl : list
 
     def init(self):
+        self.speeds_up = []
+        self.speeds_dl = []
         try:
             self.client = qbittorrentapi.Client(self.host, self.port, self.username, self.password)
             self.client.auth_log_in()
